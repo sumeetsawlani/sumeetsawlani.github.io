@@ -1,0 +1,374 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+  background: white;
+  color: black;
+  /*font: 300 1em/1.5em "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;;*/
+  font: normal 1em/1.5em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+
+
+
+
+/*h1 {
+  font-size: 2.5em;
+}*/
+h2 {
+  font-size: 2.5em;
+  font-weight:normal;
+  color:#22A39F;
+  
+}
+h3 {
+  font-size: 1.5em;
+  text-align:left;
+  margin: 2rem 0;
+  color:#22A39F;
+}
+h4 {
+  font-size: 1.2em;
+  text-align:center;
+  border-bottom : 1px solid #D0C6C6;
+  padding-bottom:2rem;
+}
+
+
+
+
+/* Header Style */
+header {
+  height :100vh ;
+  width : auto;
+  background: -webkit-linear-gradient(to bottom, #22A39F,#a1d3b0);/*, #f6f1d3*/
+  background: -moz-linear-gradient(to bottom, #22A39F,#a1d3b0);
+  background: linear-gradient(to bottom, #22A39F,#a1d3b0);
+}
+
+
+.center {
+  position:absolute;
+  top: 30%;
+  width : 100%;
+  text-align: center;
+  /*border: 0.5em solid green;*/
+}
+
+.navimage {
+  display:none;
+}
+
+.navcontent{
+  display:block; 
+  }
+
+header h1 {
+  font-size: 3.5em;
+  text-decoration : underline;
+  padding: 1rem 0rem;
+  color:white;
+  font-weight:bold;
+}
+
+header h4 {
+  font-size: 1.5em;
+  color:white;
+  border:none;
+  
+}
+
+header nav {
+  float:right;
+  position:fixed;
+  top:20%;
+  right:2%;
+  text-align:center;
+
+  
+}
+
+header ul{
+  
+}
+header ul li{
+  
+  background-color: black;
+  padding : 2rem 1rem;
+  cursor:pointer;
+  font-weight:bold;
+  z-index:1;
+  /*border:1px solid #DAD9D3;*/
+  
+}
+
+header a {
+  color:white;
+  text-decoration:none;
+  
+
+}
+
+
+/*header a:hover {
+  color:grey;
+
+}*/
+
+header ul li:hover:not(.navimage)
+{
+  background-color: #22A39F;
+}
+
+.select {
+  background-color:  #22A39F;
+}
+
+
+
+
+/* Content Style */
+
+section {
+  padding : 2rem 20%; 
+}
+
+section:nth-of-type(2n) {
+  /*background-color:#F3EFE0;*/
+  background-color:#DAD9D3;
+}
+
+.nav-heading{
+  text-align:center;
+  color:#22A39F;
+  margin:5rem 0 2rem 0;
+}
+
+article {
+  display:inline-block;
+  vertical-align: top;
+  margin-bottom: 2rem;
+  /*border:1px solid red;*/
+  
+}
+
+li{
+  /*border:1px solid green;*/
+}
+
+.col-1-3 {
+  width: 33.33%;
+}
+.col-2-3 {
+  width: 66.66%;
+}
+
+strong {
+  font-weight:bold;
+}
+
+article > img {
+  width:70%;
+  height:auto;
+  border-radius:40%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  
+}
+
+p img {
+  width:50%;
+  height:auto;
+  margin-left:0;
+  display:block;
+  
+}
+
+article a {
+  color:black;
+  text-decoration:none;
+  
+  transition: all .5s linear;
+}
+
+
+ article a:hover {
+  font-size:1.2em;
+  color: #22A39F;
+  
+}
+/*#profile {
+  border:1px solid green;
+}*/
+
+.ability-title {
+ 
+}
+
+.ability-score {
+  float:right;
+  
+  color: #DAD9D3;
+}
+
+.checked {
+  color: orange;
+}
+
+article li {
+  width:25rem;
+}
+article li:hover {
+  background-color: #22A39F; 
+}
+
+
+/*Footer Style*/
+
+footer{
+  height : 30vh ;
+  width : auto;
+  /*background: -webkit-linear-gradient(to bottom, #22A39F,#a1d3b0);/*, #f6f1d3*/
+  /*background: -moz-linear-gradient(to bottom, #22A39F,#a1d3b0);
+  background: linear-gradient(to bottom, #22A39F,#a1d3b0);*/
+  background-color:#313130;
+}
+
+footer h2 {
+ color:white;
+}
+
+footer ul li {
+  margin:1rem 0; 
+}
+
+footer li a {
+  color : white;
+  text-decoration:none;
+  
+}
+
+
+@media all and (max-width: 1000px) {
+
+ article {
+   display:block; 
+ }
+
+ .col-1-3 {
+  width: 100%;
+ }
+ .col-2-3 {
+  width: 100%;
+ }
+ 
+ p img {
+    display:none;
+  }
+
+  article > img {
+  width:50%;
+  
+
+  }
+
+
+@media all and (max-width: 700px) {
+  
+  section {
+  padding : 1rem 5%; 
+  }
+
+  
+  header nav {
+  position:fixed;
+  top:0;
+  left:0;
+  text-align:center;
+  }
+  
+  
+  /*header nav ul li {
+  display:none;
+  padding : 1rem 1rem;
+  border-radius:1rem;
+  }*/
+
+  .navcontent,.navimage {
+  padding : 0.5rem 1rem;
+  border-radius:1rem;
+  }
+
+  .navcontent{
+  display:none; 
+  }
+  
+  .navimage {
+  display:block;
+  text-align:right;
+   
+  }
+
+
+
+}

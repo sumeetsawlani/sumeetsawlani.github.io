@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Sumeet Sawlani - BSS Professional</title>
+	<meta name="author" content="Sumeet Sawlani">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs /font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400"-->
+  </head>
+
+  <body onload="onLoad()">
+
+    <!-- Header -->
+
+    <header>
+      
+	  <div class="center">
+        <h1 >Sumeet Sawlani</h1>
+	    <h4>Interactive resume</h3>
+             
+      </div> 
+
+	  <nav>
+		  <ul id="navbar">
+		    <li class="navimage"><i class="fa fa-bars" style="font-size:24px;color:white"></i></li>
+            <li class="navcontent"><a href="#profile">Profile</a></li>
+		    <li class="navcontent"><a href="#experiences">Experiences</a></li>
+		    <li class="navcontent"><a href="#abilities">Abilities</a></li>
+		    <li class="navcontent"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+    </header>
+
+
+    <div class="container">
+    <!-- Profile -->
+
+    <section id="profile" >
+
+      <h2 class="nav-heading">Profile</h2>
+      <h4><em>Professional with a flair for problem solving and aptitude to learn new technologies.</em></h4>
+
+      <article class="col-1-3">
+        <h3>About Me</h3>
+		<p>BSS Professional with over 14 Years of experience in telecom domain. I have extensively worked in Mediation, Rating & Billing in an E2E BSS stack and possess comprehensive knowledge of integration between BSS components.Having worked in different areas of Requirement Gathering, Design, Development & Production Support I have first hand experience of challenges impacting these areas and how to skillfully manage such bottle necks.</p>
+	  </article><!--
+      
+	  --><article class="col-1-3 ">
+        <img src="assets/images/sumeet.jpg" alt="Sumeet's Image">
+	  </article><!--
+
+	  --><article class="col-1-3">
+        <h3>Details</h3>
+		<p><strong>Name:</strong><br>Sumeet Sawlani<br><strong>Age:</strong><br>35 years<strong><br>Location:</strong><br>Jakarta, Indonesia</p>
+	  </article>
+
+
+    </section>
+
+
+    <!-- Experiences -->
+
+    <section id="experiences">
+
+      <h2 class="nav-heading">Experiences</h2>
+      <h4>Professional work and education details</h4>
+      
+      <h3>Career</h3>
+      <article class="col-1-3">
+	    <p><a href="https://www.techmahindra.com/" target="_blank"><strong>Tech Mahindra</strong><br>March 2014 - current<img src="assets/images/techmahindra.jpg" alt="company image"></a></p>
+      </article><!--
+      
+	  --><article class="col-2-3">
+        <p><strong>Fulltime - Tech Manager</strong><br>Working as a Technical Manager on a large indonesian based telecom service provider. Responsibilities include (not limited to) Production analysis, support and deployment for Rating & Billing System. </p>
+	  </article>
+
+	  <article class="col-1-3">
+	    <p><a href="http://trendcom-intl.com/" target="_blank"><strong>Trendcom-International</strong><br>July 2012 - Jan 2014<img src="assets/images/trendcom.png" alt="company image"></a></p>
+      </article><!--
+      
+	  --><article class="col-2-3">
+        <p><strong>Fulltime - Senior Technical Consultant</strong><br>As a Senior Consultant at Trendcom-International I worked on projects : Payment via Phone Wallet & USSD server. I also supported my colleagues to write readable and reusable code. </p>
+	  </article>
+
+	  <article class="col-1-3">
+	    <p><a href="https://www.techmahindra.com/" target="_blank"><strong>Tech Mahindra</strong><br>August 2006 - June 2012<img src="assets/images/techmahindra.jpg" alt="company image"></a></p>
+      </article><!--
+      
+	  --><article class="col-2-3">
+        <p><strong>Fulltime - Senior Technical Associate</strong><br>Right after graduation, I started working for Tech Mahindra. I worked on design and development for Batch & Real Time Mediation for few years after which next task was requirement gathering,design and development for postpaid billing functionality. </p>
+	  </article>
+      
+
+
+	  <h3>Education</h3>
+      <article class="col-1-3">
+	    <p><strong>SVITS (RGPV)</strong><br>May 2002 - June 2006</p>
+      </article><!--
+
+	  --><article class="col-2-3">
+        <p><strong>Bachelor - Information Technology</strong><br>The education mainly revolved around importance of OOP, Relational Database, SQL, C++</p>
+	  </article>
+
+
+
+
+    </section>
+
+
+
+	<!-- Abilities -->
+
+    <section id="abilities">
+
+      <h2 class="nav-heading">Abilities</h2>
+      <h4>Technical Skills, Domain knowledge & Languages</h4>
+      
+      <h3>Skills</h3>
+      <article>
+	    <ul>
+	      <li>
+		    <span class="ability-title">SQL</span>
+			<span class="ability-score">
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star "></span>
+			  <span class="fa fa-star "></span>
+			</span>
+		  </li>
+		  <li>
+		    <span class="ability-title">CSS</span>
+			<span class="ability-score">
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star "></span>
+			  <span class="fa fa-star "></span>
+			</span>
+		  </li>
+		  <li>
+		    <span class="ability-title">Java</span>
+			<span class="ability-score">
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star "></span>
+			  <span class="fa fa-star "></span>
+			</span>
+		  </li>
+		  <li>
+		    <span class="ability-title">HTML</span>
+			<span class="ability-score">
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star "></span>
+			  <span class="fa fa-star "></span>
+			</span>
+		  </li>
+		  <li>
+		    <span class="ability-title">Python</span>
+			<span class="ability-score">
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star "></span>
+			  <span class="fa fa-star "></span>
+			</span>
+		  </li>
+		  <li>
+		    <span class="ability-title">Shell script</span>
+			<span class="ability-score">
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star "></span>
+			  <span class="fa fa-star "></span>
+			</span>
+		  </li>
+		  <li>
+		    <span class="ability-title">Rating</span>
+			<span class="ability-score">
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star "></span>
+			</span>
+		  </li>
+		  <li>
+		    <span class="ability-title">Billing</span>
+			<span class="ability-score">
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star "></span>
+			</span>
+		  </li>
+		  <li>
+		    <span class="ability-title">Mediation</span>
+			<span class="ability-score">
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star "></span>
+			</span>
+		  </li>
+
+		  
+        <ul>
+	  </article>
+      
+
+	  <h3>Languages</h3>
+      <article>
+	    <ul>
+	      <li>
+		    <span class="ability-title">Hindi (Mother Tongue)</span>
+			<span class="ability-score">
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star "></span>
+			</span>
+		  </li>
+		  <li>
+		    <span class="ability-title">English (Daily Use)</span>
+			<span class="ability-score">
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star "></span>
+			</span>
+		  </li>
+		  <li>
+		    <span class="ability-title">Bhasa Indonesia (Survivable)</span>
+			<span class="ability-score">
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star checked"></span>
+			  <span class="fa fa-star "></span>
+			  <span class="fa fa-star "></span>
+			  <span class="fa fa-star "></span>
+			</span>
+		  </li>
+        </ul>
+	  </article>
+
+
+   </section>
+   <div>
+
+   <!-- Contact -->
+   <footer>
+    <section id="contact">
+
+      <h2 >Contact</h2>
+      
+        <ul>
+		  <li>
+		    <a href="https://www.linkedin.com/in/sumeetsawlani/" target="_blank">
+			  <i class="fa fa-linkedin-square" style="font-size:36px;color:white"></i>
+			  https://www.linkedin.com/in/sumeetsawlani/
+			</a>
+		  </li>
+		  <li>
+		    <a href="mailto:sumeet.sawlani@gmail.com" >
+			  <i class="fa fa-envelope-square" style="font-size:36px;color:white"></i>
+			  sumeet.sawlani@gmail.com
+			</a>
+		  </li>
+		</ul>
+      
+     </section>
+   </footer>
+
+   
+  <script src="assets/scripts/event.js"></script>
+  </body>
+</html>
