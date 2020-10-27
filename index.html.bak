@@ -7,7 +7,7 @@
 	<meta name="author" content="Sumeet Sawlani">
     <link rel="stylesheet" href="assets/stylesheets/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs /font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400"-->
   </head>
 
@@ -19,7 +19,7 @@
       
 	  <div class="center">
         <h1 >Sumeet Sawlani</h1>
-	    <h4>Interactive resume</h3>
+	    <h4>Interactive resume</h4>
              
       </div> 
 
@@ -214,7 +214,7 @@
 		  </li>
 
 		  
-        <ul>
+        </ul>
 	  </article>
       
 
